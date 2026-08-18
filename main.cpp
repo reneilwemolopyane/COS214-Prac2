@@ -6,10 +6,10 @@
 #include "Map.h"
 #include "LocationDecorator.h"
 #include "WorldBuilder.h"
-#include "DesertFactory.h"
-#include "CityFactory.h"
-#include "OceanFactory.h"
-#include "ForestFactory.h"
+#include "Desert.h"
+#include "City.h"
+#include "Ocean.h"
+#include "Forest.h"
 #include <iostream>
 #include <vector>
 
