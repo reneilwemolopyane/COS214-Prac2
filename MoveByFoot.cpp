@@ -15,7 +15,7 @@ MoveState* MoveByFoot::getNextMove(Traveller& traveller){
     if(traveller.isAtGarage()){
         return new MoveByCar();
     }
-    if(traveller.isAtShore()){
+    if(traveller.isAtDock()){
         return new MoveByBoat();
     }
     return this;
