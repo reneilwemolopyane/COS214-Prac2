@@ -4,6 +4,6 @@
 class Terrain{
     public:
        virtual void print() = 0;
-       virtual ~Terrain();
+       virtual ~Terrain(){};
 };
 #endif

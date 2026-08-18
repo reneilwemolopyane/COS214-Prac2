@@ -4,7 +4,7 @@
 class Obstacle{
     public:
        virtual void print() = 0;
-       virtual ~Obstacle();
+       virtual ~Obstacle(){};
 };
 
 #endif

@@ -4,6 +4,6 @@
 class NPC{
     public:
        virtual void print() = 0;
-       virtual ~NPC();
+       virtual ~NPC(){};
 };
 #endif

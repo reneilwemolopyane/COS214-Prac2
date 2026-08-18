@@ -7,7 +7,7 @@
 
 class WorldBuilder{
     public:
-      virtual ~WorldBuilder();
+      virtual ~WorldBuilder(){};
       virtual NPC* createNPC()=0;
       virtual Terrain* createTerrain()=0;
       virtual Obstacle* createObstacle()=0;
